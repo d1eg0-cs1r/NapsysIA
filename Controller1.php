@@ -53,9 +53,9 @@
 		
 			
 		// form was re-submitted return false
-				header("location: http://$host/$rutaSinArchivo/Page.php");
+				header("location: https://d1eg0-cs1r.github.io/NapsysIA/Page.php");
 			}else{
-				header('location: http://'. $host . '/' . $rutaSinArchivo . '/ViewFailAcces.php');
+				header('location: https://d1eg0-cs1r.github.io/NapsysIA/ViewFailAcces.php');
 			
 	}	
 	
