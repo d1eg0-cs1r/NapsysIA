@@ -17,5 +17,5 @@
 		
 	session_destroy();			// Destruimos los datos guardados de la sesion 
 		
-	header("location: http://$host/$rutaSinArchivo/index.html");	// Nos redirigimos a la pagina principal
+	header("location:  https://d1eg0-cs1r.github.io/NapsysIA/index.html");	// Nos redirigimos a la pagina principal
 ?>
