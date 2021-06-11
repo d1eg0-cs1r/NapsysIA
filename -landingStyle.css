@@ -1,0 +1,656 @@
+
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+body, html
+{
+
+	font-family: 'Roboto', sans-serif;
+	src: url('abel-regular-webfont.woff2') format('woff2'),
+	url('abel-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: 12px;
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("images/NapsysPage.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	color: rgba(220,220,220,1);
+	text-align: center;
+
+}
+#fondo{
+
+	background-image: url("Napsys.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#bgimg-login {
+	position: relative;
+	opacity: 1;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	background-image: url("images/fondo-login.png");
+	
+}
+#bgimg-page {
+	opacity: 1;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url("images/NeuralNetwork.jpg");
+}
+#hTitle{
+	font-size: 28;
+}
+.Titulo
+{
+
+	color:#cbfff5;
+	font-family: 'abelregular';
+	src: url('abel-regular-webfont.woff2') format('woff2'),
+	url('abel-regular-webfont.woff') format('woff');
+	font-style: 32;
+	text-align: center;
+}
+
+.Subtitulo
+{
+	color:#F3F2F0;
+	font-family: 'abelregular';
+	src: url('abel-regular-webfont.woff2') format('woff2'),
+	url('abel-regular-webfont.woff') format('woff');
+	font-style: 12px;
+	text-align: center;
+
+}
+
+a:hover{
+	color: rgba(2, 218, 164, 0.7);
+}
+.liColor {
+	margin-left: 10px;
+	text-align: left;
+	font-size: 28;
+	color: rgba(2, 218, 164, 0.7);
+
+}
+.li{
+	margin-left: 10px;
+	text-align: left;
+	font-size: 28;
+	color: rgba(165, 170, 170, 0.9);
+
+}
+
+.ul-ol {
+
+	text-align: left;
+	font-size: 18;
+	color: rgba(2, 218, 164, 0.7);
+
+}
+	
+
+h1,h2{
+	font-size: 28;
+	color:rgb(199, 206, 206);
+
+}
+h3{
+	font-size: 24;
+	color:rgb(166, 177, 177);
+
+}
+.hTitleDiv{
+	font-size: 24;
+	color: rgba(2, 218, 164, 0.7);
+}
+.htitle-login{
+
+	font-weight: 30px ;
+	color:rgb(190, 190, 190);
+
+}
+
+.defaultMainDiv
+{	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: space-around;
+	padding: 10px ;
+
+	
+}
+.defaultMainTitle	
+{	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: space-around;
+	padding: 10px ;
+
+	
+}
+.divchield{
+	flex: auto;
+	align-self: auto;
+	padding: 10px;
+	
+	
+}
+.divdRow{
+	flex: auto;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items:flex-start;
+	align-content: stretch;
+	
+	
+	
+}
+.divColum{
+
+	flex: auto;
+	flex-direction:column;
+	flex-wrap:nowrap;
+	justify-content: flex-start;
+	align-items:flex-start;
+	align-content: stretch;
+	
+	
+
+}
+.divBorder{
+	border: 1px solid rgb(50, 200, 171);	
+  	border-radius: 5px;
+	margin: 4px;
+	
+}
+.divShadow{
+	background-color: rgba(0, 0, 0, 0.50);
+	margin: 3% 9%;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+}
+.smallDivShadow{
+	background-color: rgba(0, 0, 0, 0.50);
+	margin: 4px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+}
+
+
+*div {
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.0);
+	border: 0px solid #00000000;
+	margin: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+
+
+/* CENTERED PANEL : FOR CONTENT */
+.centered-contentPanel {
+	box-sizing: border-box;
+	position:relative;
+    display: inline-block;
+    text-align: center;
+	color: rgba(255 , 255, 255, 0.75);
+	background: rgba(0, 0, 0, 0.50);
+	
+	box-sizing: border-box;
+	border: 1px solid rgb(50, 200, 171);	
+  	border-radius: 5px;
+	display: inline-block;
+	padding:0px;
+	margin-top: 5px;
+	
+}
+
+
+.tableDiv {
+	position: relative;
+	box-sizing: border-box; 
+	display: table;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	border: 0px solid #000000;
+}
+
+.tableDivRow {
+	position: relative;
+	box-sizing: border-box;
+	display: table-row;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	border: 0px solid #000000;
+}
+
+.tableDivCol {
+	position: relative;
+	box-sizing: border-box;
+	display: table-cell;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	border: 0px solid #000000;
+	/* border: 1px solid #FF0000; /* FOR DEBUG */
+}
+.flex-container {
+    display: -ms-inline-flexbox;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: no-wrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    
+  
+    
+}
+.main{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.texto{
+   
+    font-size: 20px;
+    padding: 6px;
+    color:#ffffff;
+    margin: 2px;
+    width: auto;
+}
+.aside{
+	/*background: #f73f54;*/
+	flex: 1 1 100%;
+	margin: 10px 10px 0px 0px;
+
+
+
+}
+.aside img{
+	width: 100%;
+}
+
+.imgAside{
+	width: 50%;
+	
+}
+.padding{
+	padding-top: 10%;
+
+}
+input:focus, textarea:focus, select:focus {
+	outline: none;
+	border-radius: 3px;
+	border-bottom: 3px solid #FFFFFF;
+}
+	
+input[type=text]
+{
+	box-sizing: border-box;
+	background-color: rgb(24, 24, 24, 0.66);
+	outline: none;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(53, 193, 165, 0.50);
+	border-bottom: 3px solid rgb(53, 193, 165, 0.30);
+	border-radius: 3px;
+				
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color:  rgb(200, 200, 200, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=text]:focus
+{
+	box-sizing: border-box;
+	background-color: rgb(24, 24, 24, 0.66);	
+	outline: none;
+		
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(53, 193, 165, 0.90);
+	border-bottom: 3px solid rgb(53, 193, 165, 0.90);
+	border-radius: 3px;	
+	
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color:  rgb(200, 200, 200, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=text]:disabled
+{
+	box-sizing: border-box;
+	background-color: rgb(64, 64, 64, 0.66);
+	outline: none;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(193, 193, 193, 0.50);
+	border-bottom: 3px solid rgb(193, 193, 193, 0.50);
+	border-radius: 3px;
+	
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color: rgb(128, 128, 128, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=number]
+{
+	box-sizing: border-box;
+	background-color: rgb(24, 24, 24, 0.66);
+	outline: none;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(53, 193, 165, 0.50);
+	border-bottom: 3px solid rgb(53, 193, 165, 0.30);
+	border-radius: 3px;
+				
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color:  rgb(200, 200, 200, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=number]:focus
+{
+	box-sizing: border-box;
+	background-color: rgb(24, 24, 24, 0.66);	
+	outline: none;
+		
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(53, 193, 165, 0.90);
+	border-bottom: 3px solid rgb(53, 193, 165, 0.90);
+	border-radius: 3px;	
+	
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color:  rgb(200, 200, 200, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=number]:disabled
+{
+	box-sizing: border-box;
+	background-color: rgb(64, 64, 64, 0.66);
+	outline: none;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(193, 193, 193, 0.50);
+	border-bottom: 3px solid rgb(193, 193, 193, 0.50);
+	border-radius: 3px;
+	
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color: rgb(128, 128, 128, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=password]
+{
+	box-sizing: border-box;
+	background-color: rgb(24, 24, 24, 0.66);
+	outline: none;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(53, 193, 165, 0.50);
+	border-bottom: 3px solid rgb(53, 193, 165, 0.30);
+	border-radius: 3px;
+				
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color:  rgb(200, 200, 200, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=password]:focus
+{
+	box-sizing: border-box;
+	background-color: rgb(24, 24, 24, 0.66);	
+	outline: none;
+		
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(53, 193, 165, 0.90);
+	border-bottom: 3px solid rgb(53, 193, 165, 0.90);
+	border-radius: 3px;	
+	
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color:  rgb(200, 200, 200, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=password]:disabled
+{
+	box-sizing: border-box;
+	background-color: rgb(64, 64, 64, 0.66);
+	outline: none;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(193, 193, 193, 0.50);
+	border-bottom: 3px solid rgb(193, 193, 193, 0.50);
+	border-radius: 3px;
+	
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color: rgb(128, 128, 128, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+
+
+
+
+select
+{
+	box-sizing: border-box;
+	background-color: rgb(24, 24, 24, 0.66);
+	outline: none;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(53, 193, 165, 0.50);
+	border-bottom: 3px solid rgb(53, 193, 165, 0.30);
+	border-radius: 3px;
+	
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color:  rgb(200, 200, 200, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+select:focus
+{
+	box-sizing: border-box;
+	background-color: rgb(24, 24, 24, 0.66);	
+	outline: none;
+		
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(53, 193, 165, 0.90);
+	border-bottom: 3px solid rgb(53, 193, 165, 0.90);
+	border-radius: 3px;	
+			
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color:  rgb(200, 200, 200, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+
+
+input[type=button], input[type=submit], input[type=reset]
+{
+	box-sizing: border-box;
+	background-color: transparent; 
+	
+	border: 2px solid #32c8ab;
+	border-radius: 5px;
+	width: 75px;
+	height: 35px;
+	cursor: pointer;
+	margin-right: 1px:;
+	margin-left: 1px;
+	margin-bottom:2px; 
+	margin-top:2px;
+	
+	color: #32c8ab;
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+		 				
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover
+{
+	box-sizing: border-box;
+	background-color: #32c8ab;
+	color: 	black;
+}
+
+
+
+

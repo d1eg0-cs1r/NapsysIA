@@ -1,0 +1,561 @@
+
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+body, html
+{
+
+	font-family: 'abelregular';
+	src: url('abel-regular-webfont.woff2') format('woff2'),
+	url('abel-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: 12px;
+}
+
+
+#bgimg-1 {
+	position: relative;
+	opacity: 1;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	background-image: url("/images/fondo-login.png");
+}
+
+
+
+.defaultMainDiv
+{
+	position: relative;
+	background-color: rgb(20, 20, 20, 1);
+	width: 100%;
+	height: 100%;
+}
+
+*div {
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.0);
+	border: 0px solid #00000000;
+	margin: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+.outer-containerPanel {
+	box-sizing: border-box;
+    position: absolute;
+    display: table;
+    width: 100%; /* This could be ANY width */
+    height: 100%; /* This could be ANY height */
+    background: rgba(0, 0, 0, 0.33);
+    text-align: left;
+}
+
+.inner-containerPanel {
+	box-sizing: border-box;
+	position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* CENTERED PANEL : FOR CONTENT */
+.centered-contentPanel {
+	box-sizing: border-box;
+	position: relative;
+    display: inline-block;
+    text-align: left;
+	color: rgba(255 , 255, 255, 0.75);
+	background: rgba(0, 0, 0, 0.50);
+	
+	box-sizing: border-box;
+	border: 1px solid rgb(50, 200, 171);	
+  	border-radius: 5px;
+	display: inline-block;
+	padding:0px;
+	width: auto;
+}
+
+.ccPanel {
+	display: inline-block;
+	position: relative;
+	box-sizing: border-box;
+	border: 1px solid red;
+	padding:0px;
+	width: auto;
+}
+
+.tableDiv {
+	position: relative;
+	box-sizing: border-box; 
+	display: table;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	border: 0px solid #000000;
+}
+
+.tableDivRow {
+	position: relative;
+	box-sizing: border-box;
+	display: table-row;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	border: 0px solid #000000;
+}
+
+.tableDivCol {
+	position: relative;
+	box-sizing: border-box;
+	display: table-cell;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	border: 0px solid #000000;
+	/* border: 1px solid #FF0000; /* FOR DEBUG */
+}
+
+input:focus, textarea:focus, select:focus {
+	outline: none;
+	border-radius: 3px;
+	border-bottom: 3px solid #FFFFFF;
+}
+	
+input[type=text]
+{
+	box-sizing: border-box;
+	background-color: rgb(24, 24, 24, 0.66);
+	outline: none;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(53, 193, 165, 0.50);
+	border-bottom: 3px solid rgb(53, 193, 165, 0.30);
+	border-radius: 3px;
+				
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color:  rgb(200, 200, 200, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=text]:focus
+{
+	box-sizing: border-box;
+	background-color: rgb(24, 24, 24, 0.66);	
+	outline: none;
+		
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(53, 193, 165, 0.90);
+	border-bottom: 3px solid rgb(53, 193, 165, 0.90);
+	border-radius: 3px;	
+	
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color:  rgb(200, 200, 200, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=text]:disabled
+{
+	box-sizing: border-box;
+	background-color: rgb(64, 64, 64, 0.66);
+	outline: none;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(193, 193, 193, 0.50);
+	border-bottom: 3px solid rgb(193, 193, 193, 0.50);
+	border-radius: 3px;
+	
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color: rgb(128, 128, 128, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=number]
+{
+	box-sizing: border-box;
+	background-color: rgb(24, 24, 24, 0.66);
+	outline: none;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(53, 193, 165, 0.50);
+	border-bottom: 3px solid rgb(53, 193, 165, 0.30);
+	border-radius: 3px;
+				
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color:  rgb(200, 200, 200, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=number]:focus
+{
+	box-sizing: border-box;
+	background-color: rgb(24, 24, 24, 0.66);	
+	outline: none;
+		
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(53, 193, 165, 0.90);
+	border-bottom: 3px solid rgb(53, 193, 165, 0.90);
+	border-radius: 3px;	
+	
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color:  rgb(200, 200, 200, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=number]:disabled
+{
+	box-sizing: border-box;
+	background-color: rgb(64, 64, 64, 0.66);
+	outline: none;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(193, 193, 193, 0.50);
+	border-bottom: 3px solid rgb(193, 193, 193, 0.50);
+	border-radius: 3px;
+	
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color: rgb(128, 128, 128, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=password]
+{
+	box-sizing: border-box;
+	background-color: rgb(24, 24, 24, 0.66);
+	outline: none;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(53, 193, 165, 0.50);
+	border-bottom: 3px solid rgb(53, 193, 165, 0.30);
+	border-radius: 3px;
+				
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color:  rgb(200, 200, 200, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=password]:focus
+{
+	box-sizing: border-box;
+	background-color: rgb(24, 24, 24, 0.66);	
+	outline: none;
+		
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(53, 193, 165, 0.90);
+	border-bottom: 3px solid rgb(53, 193, 165, 0.90);
+	border-radius: 3px;	
+	
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color:  rgb(200, 200, 200, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=password]:disabled
+{
+	box-sizing: border-box;
+	background-color: rgb(64, 64, 64, 0.66);
+	outline: none;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(193, 193, 193, 0.50);
+	border-bottom: 3px solid rgb(193, 193, 193, 0.50);
+	border-radius: 3px;
+	
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color: rgb(128, 128, 128, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=email]
+{
+	box-sizing: border-box;
+	background-color: rgb(24, 24, 24, 0.66);
+	outline: none;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(53, 193, 165, 0.50);
+	border-bottom: 3px solid rgb(53, 193, 165, 0.30);
+	border-radius: 3px;
+				
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color:  rgb(200, 200, 200, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=email]:focus
+{
+	box-sizing: border-box;
+	background-color: rgb(24, 24, 24, 0.66);	
+	outline: none;
+		
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(53, 193, 165, 0.90);
+	border-bottom: 3px solid rgb(53, 193, 165, 0.90);
+	border-radius: 3px;	
+	
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color:  rgb(200, 200, 200, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=email]:disabled
+{
+	box-sizing: border-box;
+	background-color: rgb(64, 64, 64, 0.66);
+	outline: none;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(193, 193, 193, 0.50);
+	border-bottom: 3px solid rgb(193, 193, 193, 0.50);
+	border-radius: 3px;
+	
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color: rgb(128, 128, 128, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+
+select
+{
+	box-sizing: border-box;
+	background-color: rgb(24, 24, 24, 0.66);
+	outline: none;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(53, 193, 165, 0.50);
+	border-bottom: 3px solid rgb(53, 193, 165, 0.30);
+	border-radius: 3px;
+	
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color:  rgb(200, 200, 200, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+select:focus
+{
+	box-sizing: border-box;
+	background-color: rgb(24, 24, 24, 0.66);	
+	outline: none;
+		
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(53, 193, 165, 0.90);
+	border-bottom: 3px solid rgb(53, 193, 165, 0.90);
+	border-radius: 3px;	
+			
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	
+	color:  rgb(200, 200, 200, 1);
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+/**** BUTTON ****/
+
+input[type=button], input[type=submit], input[type=reset]
+{
+	box-sizing: border-box;
+	background-color: transparent; 
+	
+	border: 2px solid #32c8ab;
+	border-radius: 5px;
+	width: 75px;
+	height: 35px;
+	cursor: pointer;
+	margin-right: 1px:;
+	margin-left: 1px;
+	margin-bottom:2px; 
+	margin-top:2px;
+	
+	color: #32c8ab;
+	font-size: 14px;
+	font-family: 'abelregular';
+    src: url('abel-regular-webfont.woff2') format('woff2'),
+         url('abel-regular-webfont.woff') format('woff');
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover
+{
+	box-sizing: border-box;
+	background-color: #32c8ab;
+	color: 	black;
+}
+
+
+.divShake {
+	box-sizing: border-box;
+	/* Start the shake animation and make the animation last for 0.5 seconds */
+	animation: shake 0.5s;
+
+	/* When the animation is finished, start again */
+	/* animation-iteration-count: infinite; */
+	animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.Titulo
+{
+
+	color:#32c8ab;
+	font-family: 'abelregular';
+	src: url('abel-regular-webfont.woff2') format('woff2'),
+	url('abel-regular-webfont.woff') format('woff');
+	font-style: 18px;
+	text-align: center;
+}
+
+.Subtitulo
+{
+
+	color:#F3F2F0;
+	font-family: 'abelregular';
+	src: url('abel-regular-webfont.woff2') format('woff2'),
+	url('abel-regular-webfont.woff') format('woff');
+	font-style: 12px;
+	text-align: center;
+}
